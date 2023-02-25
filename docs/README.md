@@ -20,7 +20,7 @@ You can download the dataset from this [link]().
 
 ### Video and QA Pair Examples
 | QA Category|Question|Answer|Video(GIF) |
-|----------------- | --------------------------------- | ------------- ---------------- | ---------------------------------------- |
+|--------------------------------- | --------------------------------- | ----------------------------- | ---------------------------------------- |
 |Attribute Comparison|<img width="1200" src="GIF/6.jpg"/>|no|![](GIF/3997.gif)|
 |Count|<img width="1200" src="GIF/7.jpg"/>|5|![](GIF/377.gif)|
 |Query|<img width="1200" src="GIF/8.jpg"/>|blue|![](GIF/1792.gif)|
