@@ -14,50 +14,45 @@ Video question answering (VideoQA) always involves visual reasoning. When answer
 
 The SVQA(Synthetic Video Question Answering) dataset contains 31,690 videos and around 600k QA pairs. Videos and QA pairs are all generated automatically with minimal language biases and clearly defined question categories. The dataset can facilitate the analysis on models reasoning skills.
 
+You can download the dataset from this [link]().
+
 
 
 ### Video and QA Pair Examples
-
-| QA Category|Question|Answer|Video(GIF)
-
-| :----------------- | --------------------------------- | ----------------------------- | ---------------------------------------- |
-| ------------------ | --------------------------------- | ----------------------------- | ---------------------------------------- |
-|                    |                                   |                               |                                          |
-| Attribute Comparison | <img width="1200" src="GIF/6.jpg"/> | no   | ![](GIF/3997.gif) |
-| -------------------- | ----------------------------------- | ---- | ----------------- |
-|                      |                                     |      |                   |
-| Count | <img width="1200" src="GIF/7.jpg"/> | 5    | ![](GIF/377.gif) |
-| ----- | ----------------------------------- | ---- | ---------------- |
-|       |                                     |      |                  |
-| Query | <img width="1200" src="GIF/8.jpg"/> | blue | ![](GIF/1792.gif) |
-| ----- | ----------------------------------- | ---- | ----------------- |
-|       |                                     |      |                   |
-| Integer Comparison | <img width="1200" height="120" src="GIF/9.jpg"/> | no   | ![](GIF/4929.gif) |
-| ------------------ | ------------------------------------------------ | ---- | ----------------- |
-|                    |                                                  |      |                   |
-| Exist | <img width="1200" src="GIF/10.jpg"/> | yes  | ![](GIF/6517.gif) |
-| ----- | ------------------------------------ | ---- | ----------------- |
-|       |                                      |      |                   |
-
-
+| QA Category|Question|Answer|Video(GIF) |
+|----------------- | --------------------------------- | ------------- ---------------- | ---------------------------------------- |
+|Attribute Comparison|<img width="1200" src="GIF/6.jpg"/>|no|![](GIF/3997.gif)|
+|Count|<img width="1200" src="GIF/7.jpg"/>|5|![](GIF/377.gif)|
+|Query|<img width="1200" src="GIF/8.jpg"/>|blue|![](GIF/1792.gif)|
+|Integer Comparison|<img width="1200" height="120" src="GIF/9.jpg"/>|no|![](GIF/4929.gif)|
+|Exist|<img width="1200" src="GIF/10.jpg"/>|yes|![](GIF/6517.gif)|
 
 ## Statistics of SVQA
-| Question Category        | Sub Category | Train |   Val |  Test |
-| :----------------------- | :----------- | ----: | ----: | ----: |
-| **Count**                |              | 19320 |  2760 |  5520 |
-| **Exist**                |              |  6720 |   960 |  1920 |
-| **Query**                | Color        |  7560 |  1056 |  2160 |
-|                          | Size         |  7560 |  1056 |  2160 |
-|                          | Action Type  |  6720 |   936 |  1920 |
-|                          | Direction    |  7560 |  1056 |  2160 |
-|                          | Shape        |  7560 |  1056 |  2160 |
-| **Integer Comparison**   | More         |  2520 |   600 |   720 |
-|                          | Equal        |  2520 |   600 |   720 |
-|                          | Less         |  2520 |   600 |   720 |
-| **Attribute Comparison** | Color        |  2520 |   216 |   720 |
-|                          | Size         |  2520 |   216 |   720 |
-|                          | Action Type  |  2520 |   216 |   720 |
-|                          | Direction    |  2520 |   216 |   720 |
-|                          | Shape        |  2520 |   216 |   720 |
-| **Total QA pairs**       |              | 83160 | 11880 | 23760 |
-| **Total Videos**         |              |  8400 |  1200 |  2400 |
+
+| Question  Category           | Sub  Category | QA_pairs1 | QA_pairs2 |
+| ---------------------------- | ------------- | --------- | --------- |
+| Count                        |               | 27600     |           |
+| Exist                        |               | 9600      |           |
+| Query & Attribute Comparison | Color         | 14232     | 99442     |
+|                              | Size          | 14232     | 83619     |
+|                              | Action Type   | 13032     | 83619     |
+|                              | Direction     | 14232     | 95188     |
+|                              | Shape         | 14232     | 97332     |
+| Integer Comparison           | More          | 3840      |           |
+|                              | Equal         | 3840      |           |
+|                              | Less          | 3840      |           |
+| Total QA pairs               |               | 118800    | 472829    |
+| Total Videos                 |               | 12000     | 19690     |
+
+
+
+# SVQAv2
+
+## Introduction
+
+## Dataset
+
+## Video and QA Pair Examples
+
+
+
