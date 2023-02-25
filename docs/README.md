@@ -2,7 +2,7 @@
 
 
 
-# SVQAv1 
+# SVQA-synthetic
 
 ## Introduction
 
@@ -20,13 +20,13 @@ You can download the dataset from this [link]().
 
 ### Video and QA Pair Examples
 
-| QA Category | Question | Answer | Video(GIF) |
-| :----------------- | --------------------------------- | ----------------------------- | ---------------------------------------- |
-| Attribute Comparison | <img width="1200" src="GIF/6.jpg"/> | no | ![](GIF/3997.gif) |
-| Count| <img width="1200" src="GIF/7.jpg"/> | 5 | ![](GIF/377.gif) |
-| Query| <img width="1200" src="GIF/8.jpg"/> | blue | ![](GIF/1792.gif) |
-| Integer Comparison | <img width="1200" height="120" src="GIF/9.jpg"/> | no | ![](GIF/4929.gif) |
-| Exist| <img width="1200" src="GIF/10.jpg"/> | yes |![](GIF/6517.gif)|
+| QA Category          | Question                                         | Answer | Video(GIF)        |
+| :------------------- | ------------------------------------------------ | ------ | ----------------- |
+| Attribute Comparison | <img width="1200" src="GIF/6.jpg"/>              | no     | ![](GIF/3997.gif) |
+| Count                | <img width="1200" src="GIF/7.jpg"/>              | 5      | ![](GIF/377.gif)  |
+| Query                | <img width="1200" src="GIF/8.jpg"/>              | blue   | ![](GIF/1792.gif) |
+| Integer Comparison   | <img width="1200" height="120" src="GIF/9.jpg"/> | no     | ![](GIF/4929.gif) |
+| Exist                | <img width="1200" src="GIF/10.jpg"/>             | yes    | ![](GIF/6517.gif) |
 
 ## Statistics of SVQA
 
@@ -47,13 +47,7 @@ You can download the dataset from this [link]().
 
 
 
-# SVQAv2
+# SVQA-real
 
-## Introduction
-
-## Dataset
-
-## Video and QA Pair Examples
-
-
+In addition, we automatically generated a supplementary dataset based on the [something-something v2]() dataset to test the model's spatio-temporal reasoning ability in the real world. This dataset contains **71,075 videos** and **341,044** different types of question and answer pairs, which can be downloaded at [this link]().
 
