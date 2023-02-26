@@ -14,8 +14,7 @@ Video question answering (VideoQA) always involves visual reasoning. When answer
 
 The SVQA(Synthetic Video Question Answering) dataset contains 31,690 videos and around 600k QA pairs. Videos and QA pairs are all generated automatically with minimal language biases and clearly defined question categories. The dataset can facilitate the analysis on models reasoning skills.
 
-You can download the dataset from this [link]().
-
+You can download the dataset from this [link](https://pan.baidu.com/s/1ggyv0CwRBSXs-2dj3GJ3aw?pwd=wr5d ).
 
 
 ### Video and QA Pair Examples
@@ -30,7 +29,7 @@ You can download the dataset from this [link]().
 
 ## Statistics of SVQA
 
-| Question  Category           | Sub  Category | QA_pairs1 | QA_pairs2 |
+| Question  Category           | Sub  Category | QA_pairs2 | QA_pairs1 |
 | ---------------------------- | ------------- | --------- | --------- |
 | Count                        |               | 27600     |           |
 | Exist                        |               | 9600      |           |
@@ -49,5 +48,5 @@ You can download the dataset from this [link]().
 
 # SVQA-real
 
-In addition, we automatically generated a supplementary dataset based on the [something-something v2]() dataset to test the model's spatio-temporal reasoning ability in the real world. This dataset contains **71,075 videos** and **341,044** different types of question and answer pairs, which can be downloaded at [this link]().
+In addition, we automatically generated a supplementary dataset based on the [something-something v2](https://developer.qualcomm.com/software/ai-datasets/something-something) dataset to test the model's spatio-temporal reasoning ability in the real world. This dataset contains **71,075 videos** and **341,044** different types of question and answer pairs, which can be downloaded at [this link](https://pan.baidu.com/s/1Bsz5TCaeAuySoa9imqHz1A?pwd=kxgp ).
 
