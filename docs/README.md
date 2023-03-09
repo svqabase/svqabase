@@ -42,7 +42,7 @@ You can download the dataset from this [link](https://pan.baidu.com/s/1ggyv0CwRB
 |                              | Equal         | 3840      |           |
 |                              | Less          | 3840      |           |
 | Total QA pairs               |               | 118800    | 472829    |
-| Total Videos                 |               | 12000     | 27，745     |
+| Total Videos                 |               | 12000     | 27745     |
 
 
 
