@@ -12,7 +12,7 @@ Video question answering (VideoQA) always involves visual reasoning. When answer
 
 ## Dataset
 
-The SVQA(Synthetic Video Question Answering) dataset contains 39,745 videos and around 690k QA pairs. Videos and QA pairs are all generated automatically with minimal language biases and clearly defined question categories. The dataset can facilitate the analysis on models reasoning skills.
+The SVQA(Synthetic Video Question Answering) dataset contains 39,745 videos and around 350k QA pairs. Videos and QA pairs are all generated automatically with minimal language biases and clearly defined question categories. The dataset can facilitate the analysis on models reasoning skills.
 
 You can download the dataset from this [link](https://pan.baidu.com/s/1ggyv0CwRBSXs-2dj3GJ3aw?pwd=wr5d ).
 
@@ -29,22 +29,35 @@ You can download the dataset from this [link](https://pan.baidu.com/s/1ggyv0CwRB
 
 ## Statistics of SVQA
 
-| Question  Category           | Sub  Category | QA_pairs2 | QA_pairs1 |
+<!-- | Question  Category           | Sub  Category | QA_pairs2 | QA_pairs1 |
 | ---------------------------- | ------------- | --------- | --------- |
-| Count                        |               | 27600     | 50987     |
-| Exist                        |               | 9600      | 17734     |
+| Count                        |               | 27600     |            |
+| Exist                        |               | 9600      |            |
 | Query & Attribute Comparison | Color         | 14232     | 99442     |
 |                              | Size          | 14232     | 83619     |
 |                              | Action Type   | 13032     | 83619     |
 |                              | Direction     | 14232     | 95188     |
 |                              | Shape         | 14232     | 97332     |
-| Integer Comparison           | More          | 3840      |  7093        |
-|                              | Equal         | 3840      |  7093         |
-|                              | Less          | 3840      |  7093         |
-| Total QA pairs               |               | 118800    | 562829    |
+| Integer Comparison           | More          | 3840      |           |
+|                              | Equal         | 3840      |           |
+|                              | Less          | 3840      |           |
+| Total QA pairs               |               | 118800    | 472829    |
+| Total Videos                 |               | 12000     | 27745     | -->
+
+| Question  Category           | Sub  Category | QA_pairs2 | QA_pairs1 |
+| ---------------------------- | ------------- | --------- | --------- |
+| Count                        |               | 27600     |            |
+| Exist                        |               | 9600      |            |
+| Query & Attribute Comparison | Color         | 14232     | 74204     |
+|                              | Size          | 14232     | 62397     |
+|                              | Action Type   | 13032     | 62397     |
+|                              | Direction     | 14232     | 71030     |
+|                              | Shape         | 14232     | 72629     |
+| Integer Comparison           | More          | 3840      |           |
+|                              | Equal         | 3840      |           |
+|                              | Less          | 3840      |           |
+| Total QA pairs               |               | 118800    | 459200    |
 | Total Videos                 |               | 12000     | 27745     |
-
-
 
 # SVQA-real
 
